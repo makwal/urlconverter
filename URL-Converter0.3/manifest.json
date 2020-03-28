@@ -1,0 +1,13 @@
+{
+"manifest_version": 2,
+"name": "URL-Converter",
+"version": "0.3",
+"description": "Macht aus der Lovely-Preview-URL die gültige URL für az, bz und sz und kopiert sie ins Clipboard.",
+"content_security_policy": "default-src 'self'",
+"icons": {"128": "az.png"},
+"background": {
+    "scripts": ["background.js"],
+    "persistent": true
+    },
+"permissions": ["contextMenus", "activeTab", "clipboardWrite"]
+}
